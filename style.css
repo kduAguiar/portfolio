@@ -37,7 +37,7 @@ body {
   position: relative;
 }
 
-/* Títulos */
+
 h1 {
   text-transform: uppercase;
   font-weight: bold;
@@ -58,7 +58,7 @@ a {
   color: #ffffff;
 }
 
-/* Div pai que engloba todas as outras */
+
 .background {
   width: 100%;
   height: 100%;
@@ -111,10 +111,10 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("img/background-white1.png"); /* Substitua pelo caminho real da sua imagem */
-  background-size: cover; /* Ajuste conforme necessário */
+  background-image: url("img/background-white1.png"); 
+  background-size: cover; 
   z-index: -1;
-  clip-path: inherit; /* Mantém o mesmo recorte da div principal */
+  clip-path: inherit;
   opacity: 0.15;
 }
 
@@ -475,7 +475,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: 200%; /* Ajuste o tamanho desejado */
+  background-size: 200%; 
   background-color: #ff4700;
   opacity: 0;
   transition: opacity 0.5s linear;
@@ -636,9 +636,9 @@ p {
   transform: scale(0.9);
   z-index: 1;
   position: relative;
-  width: 120px; /* Ajuste conforme necessário */
-  height: 120px; /* Ajuste conforme necessário */
-  background-color: #e0e3e999; /* Alterado para a cor branca */
+  width: 120px; 
+  height: 120px; 
+  background-color: #e0e3e999;
   clip-path: polygon(
     30% 0%,
     70% 0%,
@@ -650,28 +650,28 @@ p {
     0% 30%
   );
   overflow: hidden;
-  padding: 10px; /* Ajuste conforme necessário */
+  padding: 10px; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para baixo */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   transition: transform 0.1s ease;
 }
 
 .hept img {
-  max-width: 60%; /* Ajuste conforme necessário */
-  max-height: 60%; /* Ajuste conforme necessário */
+  max-width: 60%;
+  max-height: 60%; 
 }
 
 .hept span {
   text-transform: uppercase;
   font-weight: 600;
-  margin-top: 10px; /* Ajuste conforme necessário */
-  color: #000000; /* Alterado para a cor preta para melhor contraste */
-  font-size: 14px; /* Ajuste conforme necessário */
+  margin-top: 10px; 
+  color: #000000; 
+  font-size: 14px; 
   text-align: center;
-  overflow: visible; /* Permite que o texto ultrapasse a borda da div */
+  overflow: visible;
 }
 
 .hept:hover {
@@ -959,7 +959,7 @@ p {
   left: 11rem;
   border-radius: 10px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Evita que a imagem ultrapasse os limites da div */
+  overflow: hidden; 
   transition: background 0.3s ease;
   transform: scale(0.9);
 }
@@ -992,7 +992,7 @@ p {
   width: 100%;
   height: 100%;
   backdrop-filter: blur(10px);
-  border-radius: 10px; /* ajuste conforme necessário */
+  border-radius: 10px; 
 }
 
 .image-project {
@@ -1013,7 +1013,7 @@ p {
   border-radius: 5px;
   width: 80%;
   height: 90%;
-  object-fit: cover; /* Ajuste para garantir que a imagem esteja totalmente contida */
+  object-fit: cover; 
 }
 
 .project-card button {
